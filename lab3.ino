@@ -1,6 +1,6 @@
 7f         =8                          ;/*  Lab 3 - DC Motor
     Created:     May 25, 2017
-    Last edited: May 29, 2017
+    Last edited: June 2, 2017
     Author:      Gavin Acquroff
 
     Description:
