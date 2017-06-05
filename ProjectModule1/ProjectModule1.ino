@@ -79,11 +79,13 @@ void loop() {
 
     delay(2000);
 
-    for (k = 0, k < 4, k++) {
+    for (k = 0; k < 4; k++) {
       motors.setM1Speed(speed);
       motors.setM2Speed(-speed);
-
       delay(setValue4);
+      motors.setM1Speed(0);
+      motors.setM2Speed(0);
+      delay(500);
     }
 
     motors.setM1Speed(0);
